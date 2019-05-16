@@ -1,0 +1,101 @@
+/* pages/mine/mine.wxss */
+.mine-info{
+  width: 650rpx;
+  height: 300rpx;
+  background: rgb(33,8,5);
+  color: #fff;
+  border-radius: 15rpx;
+  box-shadow: rgba(33, 8, 5, 0.3) 0 6rpx 12rpx 0; 
+  font-size: 35rpx;
+  padding:1rpx;
+}
+
+.mine-info .mine-logo{
+  width: 120rpx;
+  height: 120rpx;
+  margin:60rpx auto;
+  background: #fff;
+  border-radius: 60rpx;
+}
+
+.mine-info .mine-name{
+  margin-top: -20rpx;
+  text-align: center;
+}
+
+/* 订单、优惠券 */
+.mine-order{
+  margin-top: 40rpx;
+  width: 650rpx;
+  height: 200rpx;
+  line-height: 200rpx;
+  background: rgb(255,255,255);
+  color: #a8a8a8;
+  border-radius: 15rpx;
+  box-shadow:rgba(33, 8, 5, 0.3) 0 6rpx 12rpx 0; 
+  font-size: 35rpx;
+  padding:1rpx;
+}
+
+.mine-order .mine-order-inner{
+  width: 600rpx;
+  margin: 20rpx auto;
+  display: flex;
+  align-items: center;
+}
+
+.mine-order-inner .box{
+  width: 50%;
+  line-height: 80rpx;
+  text-align: center;
+}
+
+.box .iconfont{
+  font-size: 80rpx;
+  color: #a8a8a8;
+  font-weight: normal;
+  padding-bottom: 10rpx;
+}
+
+.box text{
+  font-size: 35rpx;
+}
+
+
+.mine-order-inner .box:first-child{
+  /* height: 80rpx;
+  line-height:80rpx; */
+  border-right: 2px solid #eee;
+}
+
+.mine-order-inner .icon-coupon{
+  font-size: 84rpx;
+}
+
+/* 平台须知 */
+.need-read{
+  margin-top: 40rpx;
+  overflow: hidden;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: rgb(255,255,255);
+  color: #a8a8a8;
+  border-radius: 15rpx;
+  box-shadow:rgba(33, 8, 5, 0.3) 0 6rpx 12rpx 0; 
+  font-size: 35rpx;
+  padding:20px 20px 20px 125rpx;
+  display: flex;
+}
+
+.need-read .iconfont{
+  color: #a8a8a8;
+  font-size: 80rpx;
+  font-weight: normal;
+  line-height:100rpx;
+}
+
+.iconfont .need-read-font{
+  font-size: 30rpx;
+  font-weight: normal;
+  line-height:100rpx;
+}

@@ -1,0 +1,32 @@
+<!--index.wxml-->
+  <!-- <view class='nav bg-white' style='height:{{navH}}px'>
+    <view class='nav-title'>
+      首页
+      <image src='../../image/back.png' mode='aspectFit' class='back' bindtap='navBack'></image> 
+    </view>
+  </view> -->
+<view class="container">
+  <view>
+    <swiper class='lunbo' indicator-dots='true' autoplay='true' interval='4000'>
+      <swiper-item>
+         <image src="../../image/lunbo.png"></image>
+      </swiper-item>
+      <swiper-item>
+         <image src="../../image/lunbo.png"></image>
+      </swiper-item>
+      <swiper-item>
+         <image src="../../image/lunbo.png"></image>
+      </swiper-item>
+   </swiper>
+   <view class="orderButton">
+       自助点单
+   </view>
+   
+   <view class="card">
+       <image src="../../image/card.png"></image>
+   </view>
+  </view>
+</view>
+<!-- 定义公共底部
+  <import src="../templates/foot"/>
+  <template is="foot" id="foot"></template> -->

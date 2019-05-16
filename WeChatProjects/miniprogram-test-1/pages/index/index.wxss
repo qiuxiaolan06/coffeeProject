@@ -1,0 +1,30 @@
+/**index.wxss**/
+.lunbo{
+  width: 650rpx;
+  height: 500rpx;
+}
+
+.lunbo image{
+  width: 100%;
+}
+
+.orderButton{
+  width: 100%;
+  height: 85rpx;
+  line-height: 85rpx;
+  background: rgb(33,8,5);
+  color: #fff;
+  border-radius: 15rpx;
+  margin-top: 30rpx;
+  text-align: center;
+  box-shadow: rgba(33, 8, 5, 0.5) 0 12rpx 20rpx 0; 
+  font-size: 35rpx;
+}
+
+.card{
+  margin-top: 50rpx;
+}
+
+.card image{
+  width: 100%;
+}

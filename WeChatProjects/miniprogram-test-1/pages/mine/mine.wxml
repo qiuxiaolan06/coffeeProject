@@ -1,0 +1,38 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+  <view>
+  <!-- 我的头像、昵称 -->
+     <view class="mine-info">
+        <view class='mine-logo'>
+        </view>
+        <view class='mine-name'>
+        哎一古，橙子
+        </view>
+     </view>
+
+   <!-- 我的订单、优惠券 -->
+     <view class="mine-order">
+        <view class='mine-order-inner'>
+            <view class='box'>
+                <view class="iconfont icon-dingdan"></view>
+                <text>订单</text>
+            </view>
+
+            <view class='box'>
+                <view class="iconfont icon-coupon"></view>
+                <text>优惠券</text>
+            </view>
+        </view>
+     </view>
+
+     <!-- 平台须知 -->
+     <view class='need-read'>
+        <view class='iconfont icon-gantanhao'></view>
+        <view class='need-read-font'>平台须知</view>
+     </view>
+  </view>
+
+  <!-- 定义公共底部
+  <import src="../templates/foot"/>
+  <template is="foot"></template> -->
+</view>

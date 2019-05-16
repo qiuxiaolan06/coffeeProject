@@ -1,0 +1,19 @@
+<!--pages/templates/foot.wxml-->
+<!-- <text>pages/templates/foot.wxml</text> -->
+<template name="foot">
+<!-- 底部切换菜单 -->
+<view class="tab-bar footStyle">
+  <block>
+    <view class='icon'>
+        <view class="iconfont icon-coffee" bindtap='goHome'></view>
+        <text class="icon-text">首页</text>
+    </view>
+  </block>
+   <block>
+    <view class='icon'>
+        <view class="iconfont icon-wode" bindtap="goMine"></view>
+        <text class="icon-text">我的</text>
+    </view>
+  </block>
+</view>
+</template>

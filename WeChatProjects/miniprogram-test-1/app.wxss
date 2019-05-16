@@ -1,0 +1,118 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+} 
+/* 通用顶部 */
+.nav{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.nav-title{
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  font-family:PingFang-SC-Medium;
+  font-size:36rpx;
+  letter-spacing:2px;
+  margin-bottom: 20rpx;
+}
+.nav .back{
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+}
+.bg-white{
+  background-color: #ffffff;
+}
+.bg-gray{
+  background-color: #f7f7f7;
+}
+.overflow{
+  overflow: auto;
+}
+.hidden{
+  overflow: hidden;
+}
+
+/* 底部通用样式 */
+.footStyle {
+  margin:0;
+  padding: 10rpx 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px 0 hsla(0,6%,58%,.6);
+  z-index: 100;
+  clear: both;
+  display: flex;
+}
+
+.footStyle .icon{
+  flex: 2;
+  text-align: center;
+}
+
+.footStyle .icon-text{
+  font-size: 30rpx;
+}
+
+/* iconfont 图标代码 */
+@font-face {
+  font-family: 'iconfont';  /* project id 1177541 */
+  src: url('//at.alicdn.com/t/font_1177541_rceihmvpham.eot');
+  src: url('//at.alicdn.com/t/font_1177541_rceihmvpham.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1177541_rceihmvpham.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1177541_rceihmvpham.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1177541_rceihmvpham.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1177541_rceihmvpham.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 60rpx;
+  color: rgb(33,8,5);
+  font-weight: bold;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-coupon:before {
+  content: "\e618";
+}
+
+.icon-dingdan:before {
+  content: "\e65c";
+}
+
+.icon-gantanhao:before {
+  content: "\e600";
+}
+
+.icon-coffee:before {
+  content: "\e666";
+}
+
+.icon-wode:before {
+  content: "\e617";
+}
+
